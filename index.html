@@ -1,0 +1,157 @@
+<hmtl>
+  <!DOCTYPE HTML>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hi, I'm Tulsa</title>
+
+    <meta charset="utf-8"/>
+ 
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    </style>
+    <script src="read-more.js"></script>
+    
+  </head>
+
+  <body>
+    <header>
+      <a href="#home">
+        <h1><img src="static/Tulsa-Logo.svg" alt="Tulsa's logo which is a captial T inside a cream coloured circle"></h1>
+      </a>
+
+      <nav>
+      <span class="text">
+        <a href="#about-me">About</a>
+        <a href="#contact-me">Contact</a>
+      </span> 
+      <span class="icon"><img src="static/burger-menu.svg"></span>
+      </nav>
+    </header>
+
+    
+
+    <section id="home" class="hero">
+
+      <div>
+        <div class="hero-header">
+          <h2>Hey there, I’m Tulsa.</h2>
+          <img src="static/wave-img.svg" alt="line drawing of hand waving hello">
+        </div>
+
+        <div class="paragraphs">
+
+          <p class="intro">I'm a <span class="tooltip">certified<span class="tooltiptext">BHSc (Public Health)</span></span> Public Health nerd with a strong purpose to serve and empower
+            communities that need it most.</p>
+
+          <p class="findme"><span class="remove-mobile">I’m currently on the hunt for work opportunities with mission-driven organisations or
+            non-profits striving to have a meaningful impact on today’s health problems.</span><br>You can <a href="#about-me">learn more</a> about me below,
+            download my <a href="static/resume.pdf" target="_blank" rel="noopener noreferrer">resume</a>
+            </a> or check me out on <a href="https://www.linkedin.com/in/tulsa-daley/" target="_blank" rel="noopener noreferrer">LinkedIn.</a></p>
+          <img class="arrow" src="static/arrowdown-img.svg" alt="arrow pointing down to encourage scrolling down">
+        </div>
+      </div>
+      <img class= "better" src="static/Hero-img.svg"
+        alt="image of Tulsa from behind with her shirt reading: better health belongs to everyone">
+
+    </section>
+
+    <section id="about-me" class="aboutme">
+      <div class="aboutcopy">
+        <h3>About</h3>
+        <p>I’m a <span class="tooltip">true-blue<span class="tooltiptext">Born and raised in Australia</span></span> Aussie 🇦🇺 currently living in California’s beautiful Bay Area, enjoying good coffee
+          ☕ local wildlife 🐿 and aimless walks 👟️. I’m absolutely <span class="tooltip">chuffed<span class="tooltiptext">Excited, Keen, Pleased</span></span>
+          to have the chance to apply my burgeoning public health knowledge and passion here in the United States.<br><br>
+
+          I chose to study Public Health because I knew I wanted a career that supports and uplifts communities that
+          need it most, especially in the healthcare space. It’s a very cliché sentiment, but I’ve always felt a strong
+          purpose in life to help and serve others.<br><br>
+
+          Before moving to<span id="dots">...</span><span id="more"> the USA, I worked at <a href="https://kinela.com/" target="_blank" rel="noopener noreferrer">Kinela</a>, a small health start-up in Sydney where we
+          focused on serving Australians living with a disability, who are often overrepresented in poorer health
+          outcomes. I worked on a number of areas within the company starting in customer service, where I directly
+          supported our customers with queries, issue resolution, and basic health coaching every single day! I later
+          moved to a renewals officer role, where I focused on making sure our existing customers could continue making
+          best use of our services, and even optimised the tracking of renewal opportunities within the company allowing
+          us to exceed retention targets by 40%, reducing errors, and most importantly improving the customer experience
+          at this touch-point.<br><br>
+
+          I’m looking to grow in a career that contributes to the development, implementation, and maintenance of
+          effective and sustainable interventions that improve health outcomes, especially for vulnerable or underserved
+          communities. If you happen to have a role that might be a good fit, please let me know on my <a
+            href="#contact-me">contact page</a> 😄</span>
+        </p>
+        <button onclick="myFunction()" id="myBtn">Read More</button>
+
+        <a href="static/resume.pdf" class="resume-button" target="_blank" rel="noopener noreferrer"><button>VIEW RESUME</button></a>
+      </div>
+
+      <img class="aboutme-img" src="static/About-me-asset (1).svg" alt="three images of Tulsa graduating, at her work and basic headshot">
+
+    </section>
+
+    <section class="roles">
+      <div class="skills">
+        <h3>Skills</h3>
+        <p>Foundation HTML, CSS, JavaScript<br><br>
+          Foundation Visual Design and Branding<br><br>
+          Customer Service All-Rounder<br><br>
+          Thriving in Startup Environments<br><br>
+          <a href="https://www.16personalities.com/infps-at-work" target="_blank" rel="noopener noreferrer">INFP Empathy </p></a>
+      </div>
+
+      <div class="tools">
+        <h3>Tools</h3>
+        <p>Salesforce<br><br>
+          Microsoft Office & Google Suite<br><br>
+          Figma<br><br>
+          Slack<br><br>
+          Trello</p>
+      </div>
+      <!-- <img src="static/lightbox-filled-img.svg" alt="image detailing the roles Tulsa is open to: Project Officer/Manager 
+      Customer Service/Engagement Officer 
+      Health Promotion Officer Program Coordinator/Officer
+      Research Assistant
+      Customer Experience Associate 
+      Entry Digital Marketing/Branding
+      "> -->
+     
+      <section class="slide-show">
+      <div class="open-to">
+        <h3>Roles I am open to..</h3>
+        <p id='role-title'>Project Officer/Manager</p>
+      </div>
+      <footer id="arrows">
+        <img src="static/prev.svg" class="prev">
+        <!-- <img src="static/random.svg"class="random"> -->
+        <img src="static/next.svg"class="next">
+      </footer>
+    </section>
+
+    </section>
+
+    <section id="contact-me" class="contact">
+      <div class="copy">
+        <h2>I'd love to hear from you.</h2>
+        <p class="tag">If you think I might be the right fit for your company, please don’t hesitate to drop me a line. </p>
+        <p class="contactme">Email me directly at <a href="mailto:tulsadaley@gmail.com">tulsadaley@gmail.com</a><br><br>
+          Say hi over at <a href="https://www.linkedin.com/in/tulsa-daley/" target="_blank" rel="noopener noreferrer">LinkedIn</a><br><br>
+          Take a peek at my <a href="static/resume.pdf" target="_blank" rel="noopener noreferrer">resume</a><br><br></p>
+      </div>
+      <a href="#home"><img src="static/Arrowup-img.svg" alt="arrow pointing up to take you back to the top"></a>
+    </section>
+
+    <footer id="page-bottom">
+      <p>This website was designed and coded by me with help from <a href="https://www.superhi.com/?r=TulsaGrace" target="_blank" rel="noopener noreferrer">
+        SuperHi</a> courses</p>
+      <img src="static/mini-heart-img.svg" alt="small line drawing of a love heart">
+    </footer>
+
+    
+    <script src="slide-show.js"></script>
+  </body>
+  
+
+
+
+</hmtl>
