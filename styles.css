@@ -9,6 +9,11 @@ body {
   margin: 0;
 }
 
+.content {
+  max-width: 1440px;
+  margin: auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -86,8 +91,6 @@ h3 {
 }
 
 .hero {
-  display:flex;
-  flex-wrap:wrap;
   padding: 0 64px 0 64px;
 }
 
@@ -95,6 +98,10 @@ h3 {
   display: flex;
 }
 
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 .hero-header h2 {
@@ -129,10 +136,13 @@ h3 {
 
 .aboutme {
   background-color:#fff;
-  display:flex;
-  flex-direction:row-reverse;
   padding: 0 64px 0 64px;
   padding-bottom: 120px;
+}
+
+.aboutme-content {
+  display:flex;
+  flex-direction:row-reverse;
 }
 
 .aboutme p {
@@ -179,11 +189,13 @@ button {
 
 .roles {
   background-color: #F5EEC9;
-  display:flex;
-  justify-content: space-between;
-  flex-wrap:wrap;
   padding: 64px 64px 64px 64px;
+}
 
+.roles-content {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
 }
 
 .slide-show {
