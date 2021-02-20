@@ -84,6 +84,15 @@ h2 {
   letter-spacing: 3px;
 }
 
+.hero-header img {
+  transition: 0.5s ease-in-out;
+}
+
+ .hero-header img:hover {
+  transform:rotate(12deg);
+  
+}
+
 h3 {
   font-family: 'Shrikhand', cursive;
   font-size: 56px;
