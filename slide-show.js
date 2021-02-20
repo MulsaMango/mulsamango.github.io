@@ -5,6 +5,7 @@ const pages = [
   {copy:"Health Promotion Officer"},
   {copy:"UX Intern"},
   {copy:'Digital Marketing Intern'},
+  {copy:'Donut Taste Tester 🍩'},
   {copy:'Project Officer'},
   {copy:'Research Assistant'},
   {copy:'Program Coordinator'},
