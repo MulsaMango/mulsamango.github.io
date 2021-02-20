@@ -15,7 +15,6 @@ const pages = [
 
 const nextTag = document.querySelector('footer img.next')
 const previousTag = document.querySelector('footer img.prev')
-// const randomTag = document.querySelector ('footer img.random')
 const outputTag = document.querySelector('.open-to #role-title')
 const slideTag = document.querySelector(".slide-show")
 
