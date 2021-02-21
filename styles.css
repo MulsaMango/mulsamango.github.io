@@ -421,8 +421,8 @@ footer a:hover {
     padding: 0 24px 24px 24px;
   }
 
-  h2 .copy {
-    font-size:35px;
+  .copy h2 {
+    font-size:55px;
   }
 
   .tag {
