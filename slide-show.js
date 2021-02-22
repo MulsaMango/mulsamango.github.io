@@ -2,12 +2,12 @@ let pageNumber = 0
 
 const pages = [
   {copy:"Customer Service/Engagement Officer"},
-  {copy:"Health Promotion Officer"},
   {copy:"UX Intern"},
-  {copy:'Digital Marketing Intern'},
   {copy:'Donut Taste Tester 🍩'},
-  {copy:'Project Officer'},
+  {copy:'Program officer'},
   {copy:'Research Assistant'},
+  {copy:'Public Health Officer'},
+  {copy:"Health Promotion Officer"},
   {copy:'Program Coordinator'},
   {copy:'Got something better in mind? <a href="mailto:tulsadaley@gmail.com">Email Me!</a>'}
 ]
