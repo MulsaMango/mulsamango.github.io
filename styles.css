@@ -191,12 +191,23 @@ button {
   padding: 10px 20px;
   font-size: 20px;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
+  box-shadow: 0 9px #999;
 }
+
 
 #myBtn {
   display:none;
+}
+
+.resume-button button:hover {
+  background-color: #cec493;
+}
+
+.resume-button button:active {
+  background-color: #cec493;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .roles {
@@ -350,6 +361,8 @@ footer a:hover {
 
   #myBtn {
     display:initial;
+    box-shadow:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 }
