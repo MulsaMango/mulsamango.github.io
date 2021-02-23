@@ -33,20 +33,19 @@ h1{
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 140px;
   background-color: rgb(56, 56, 56);
   color: #fff;
   text-align: center;
   border-radius: 10px;
   padding: 5px 0;
   font-size: 12px;
-  
-
   position: absolute;
   z-index: 1;
   bottom: 100%;
   left: 50%;
   margin-left: -60px;
+  padding: 8px;
 }
 
 .tooltip:hover .tooltiptext {
@@ -55,15 +54,18 @@ h1{
 /* Hover popup text css END */
 
 header {
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid rgb(255, 255, 255);
   padding: 0 64px 0 64px;
   position: sticky;
   top: 0;
   z-index: 100;
   background-color: #d4eee1ad
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
