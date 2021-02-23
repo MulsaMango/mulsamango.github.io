@@ -23,11 +23,12 @@ h1{
   margin-block-end: 8px;
 }
 
-/* Hover text CSS */
+/* Hover popup text CSS */
 .tooltip {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  line-height: 0.85;
 }
 
 .tooltip .tooltiptext {
@@ -51,7 +52,7 @@ h1{
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-/* Hover text css END */
+/* Hover popup text css END */
 
 header {
   display:flex;
@@ -112,6 +113,7 @@ h3 {
 .header-content {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 5em;
 }
 
 
@@ -135,10 +137,7 @@ h3 {
 }
 
 
-.arrow {
-  align-self:end;
-  margin-bottom: 30px;
-}
+
 
 .better {
   max-width: 100%;
@@ -179,7 +178,7 @@ h3 {
 
 
 .aboutme img {
-  /* margin-right: 6em; */
+  margin-right: 4em;
   max-width: 100%;
   height: auto;
 }
